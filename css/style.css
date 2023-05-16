@@ -1,0 +1,23 @@
+main {
+    color: white;
+}
+
+p {
+    padding: 1rem;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.goldenrod {
+    background-color: goldenrod;
+}
