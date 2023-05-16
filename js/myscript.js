@@ -1,4 +1,4 @@
-const numberList = document.querySelector('main');
+const numberList = document.querySelector('div.container');
 let element;
 
 for (let i = 1; i <= 100; i++) {
@@ -13,6 +13,6 @@ for (let i = 1; i <= 100; i++) {
     }
 
     output = document.createElement('p');
-    output.append(element);
+    output.append("Riga " + i + " - " + element);
     numberList.append(output);
 }
