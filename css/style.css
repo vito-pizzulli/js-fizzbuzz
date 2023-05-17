@@ -6,29 +6,35 @@
 
 main {
     font-family: 'VT323', monospace;
-    font-size: 2rem;
     background-image: url(..//img/city.gif);
     background-attachment: fixed;
     background-size: cover;
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 h1 {
-    background-color: black;
     text-align: center;
-    color: white;
-    width: 20%;
-    margin: 0 auto;
+    padding: 1rem;
+    font-size: 6rem;
 }
 
 p {
+    font-size: 2rem;
     text-align: center;
-    border: 1px solid black;
+    border: 3px solid black;
+    width: 110px;
+    aspect-ratio: 1;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 div.container {
-    width: 20%;
-    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .bgFizzBuzz {
@@ -55,11 +61,6 @@ div.container {
     main {
         background-position: center;
     }
-
-    div.container,
-    h1 {
-        width: 70%;
-    }
 }
 
 /* 2K Layout (from 2560px to 3840px */
@@ -67,11 +68,23 @@ div.container {
     html {
         font-size: 30px;
     }
+
+    p {
+        width: 180px;
+        border: 6px solid black;
+        font-size: 1.8rem;
+    }
 }
 
 /* 4K Layout (from 3840px to higher resolutions */
 @media screen and (min-width: 3840px) {
     html {
         font-size: 40px;
+    }
+
+    p {
+        width: 300px;
+        border: 9px solid black;
+        font-size: 2.2rem;
     }
 }

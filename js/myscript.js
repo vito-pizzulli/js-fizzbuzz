@@ -22,6 +22,6 @@ for (let i = 1; i <= 100; i++) {
         element = i;
     }
 
-    output.append("Line " + i + " - " + element);
+    output.append(i + "-" + element);
     numberList.append(output);
 }
